@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Google News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="simple-google-news.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple Google News</h1>
+        <div class="dropdown show">
+            <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                News Category
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#" onclick="changeCategory(this)">business</a>
+                <a class="dropdown-item" href="#" onclick="changeCategory(this)">science</a>
+                <a class="dropdown-item" href="#" onclick="changeCategory(this)">technology</a>
+
+            </div>
+        </div>
+        <div id="totalNews"></div>
+        <div id="news">
+
+        </div>
+        <button id="readMore" type="button" class="btn btn-primary">Read More</button>
+
+        <script src="simple-google-news.js"></script>
+        <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
