@@ -2,7 +2,7 @@
 
 Created with love by: Victor
 
-Link demo - 
+Link demo - Netlify link was down. 
   
 One or two sentence summary of your project. 
 
